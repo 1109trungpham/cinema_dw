@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: cinema_source
+    database: cinema
+    schema: raw
+    tables:
+      - name: movies_raw
+      - name: customers_raw
+      - name: ticket_sales_raw
